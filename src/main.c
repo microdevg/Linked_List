@@ -41,10 +41,11 @@ int main(void){
     char* str = remove_last(list);
     printf("Remove:%s\n",str);
     printf("List size:%d\n",list->size);
+    free(str);
     str = remove_last(list);
     printf("Remove:%s\n",str);
     printf("List size:%d\n",list->size);
-
+    free(str);
     str = remove_last(list);
     printf("Remove:%s\n",str);
     printf("List size:%d\n",list->size);

@@ -3,3 +3,7 @@ src/*
 
 # Do not ignore .c files in src folder
 !src/*.c
+
+
+
+build/

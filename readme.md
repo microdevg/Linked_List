@@ -20,6 +20,6 @@ Clone the repository, then into the directory and run:
 
 ```bash
 
-docker run -it --rm -v ${pwd}/Linked_List:/home/dev/project throwtheswitch/madsciencelab
+docker run -it --rm -v ${pwd}:/home/dev/project throwtheswitch/madsciencelab
 
 ```

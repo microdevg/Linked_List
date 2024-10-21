@@ -22,4 +22,5 @@ Clone the repository, then into the directory and run:
 
 docker run -it --rm -v ${pwd}:/home/dev/project throwtheswitch/madsciencelab
 
+ceedling test:all
 ```

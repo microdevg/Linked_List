@@ -16,11 +16,10 @@ This project uses Ceedling for unit testing C code. To make the setup easier, we
 Make sure you have Docker installed on your system. You can download it from here.
 
 ### Running Tests
+Clone the repository, then into the directory and run:
 
 ```bash
-// clone the repository
-// into the directory
-// If you are in ./Linked_List/
+
 docker run -it --rm -v ${pwd}/Linked_List:/home/dev/project throwtheswitch/madsciencelab
 
 ```

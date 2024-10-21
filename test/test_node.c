@@ -17,7 +17,20 @@ void setUp(void) {
 void tearDown(void) {
     // Free memory
     free(list);
+    list = NULL;
 } 
+
+
+
+
+//a test create lista
+
+void test_crate_list(){
+ list == NULL;
+ TEST_ASSERT_NOT_NULL(list);
+ TEST_ASSERT_NULL(list->init);
+ TEST_ASSERT_EQUAL(0,list->size);
+}
 
 // a test case function
 void test_increase_size(void)

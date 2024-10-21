@@ -18,7 +18,9 @@ Make sure you have Docker installed on your system. You can download it from her
 ### Running Tests
 
 ```bash
-docker run -it --rm -v <local project path>:/project throwtheswitch/madsciencelab
-
+// clone the repository
+// into the directory
+// If you are in ./Linked_List/
+docker run -it --rm -v ${pwd}/Linked_List:/home/dev/project throwtheswitch/madsciencelab
 
 ```
